@@ -36,7 +36,8 @@ spec:
       - name: backend
         image: joindevops/backend:v1.0
         envFrom:
-        - configMapRef: backend
+        - configMapRef: 
+          name: backend
 
 
 ---
