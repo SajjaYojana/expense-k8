@@ -18,7 +18,7 @@ spec:
   template:
     metadata:
       labels:
-        component: mysql
+        app: mysql
         project: expense
         tier: web
     spec:
